@@ -1,0 +1,35 @@
+
+.hed{
+    margin-left: 10%;
+}
+
+.contacp{
+    margin-left: 10%;
+}
+
+.contacc{
+    margin-left: 10%;
+}
+
+
+body{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #540D6E;
+    background: url(/LogosAndSuch/watercolorback.png)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.dezignchoyses{
+    margin-left: 5%;
+   
+}
+
+.designheaders{
+    text-indent: 450px;
+  
+    font-size: 30px;
+}

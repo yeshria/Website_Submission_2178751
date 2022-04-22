@@ -1,0 +1,190 @@
+.main_sec1{
+
+}
+
+.heed {
+    display:block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.pleb{
+    display:block;
+    font-size: 20px;
+    margin-left: 10%;
+    padding-left: 10px;
+}
+
+.about{
+    width: 50%;
+    float: right;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.list{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #540D6E;
+    background: url(/LogosAndSuch/watercolorback.png)no-repeat;
+   /*background-color: #f1a7be;*/
+    /*background-size: cover;*/
+   background-attachment: fixed;
+    height: 100vh;
+
+}
+
+#me{
+    width:30%;
+    float:left;
+    margin-left: 20px;
+}
+
+.blogname{
+font-size: 20px;
+line-height: 20px;
+
+}
+
+.blogdate{
+font-size: 10px;
+line-height: 10px;
+}
+
+.gridtest{
+margin-top: -500px;
+display: grid;
+row-gap : 20px;
+grid-template-columns: 50% 25% 25%;
+grid-template-rows: 270px 270px 270px;
+
+
+}
+
+.recentgrid{
+display:inline-block;
+margin-left: 50px;
+
+}
+
+.recent{
+    color:aliceblue;
+    background-color: rgba(168, 30, 218, 0.5);
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+}
+.weekone {
+    color:aliceblue;
+
+    grid-row: 1;
+    grid-column:3;
+    background-color: rgba(168, 30, 218, 0.5);
+   
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+}
+
+.weektwo {
+    color:aliceblue;
+ 
+    background-color: rgba(168, 30, 218, 0.5);
+
+    grid-row: 2;
+    grid-column: 3;
+
+    height: 270px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    
+}
+
+.BlogHeader{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 20%;
+}
+
+
+.wireframes{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 300px 300px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#wireframe1{
+    grid-column: 1;
+    grid-row: 1;
+    width:75%;
+    }
+
+#wireframe2{
+    grid-column: 2;
+    grid-row: 1;
+    width:75%;
+    }
+
+#wireframe3{
+    grid-column: 1;
+    grid-row: 2;
+    width:75%;
+    margin-top: 80px;
+    }
+
+#wireframe4{
+    grid-column: 2;
+    grid-row: 2;
+    width:75%;
+    }
+
+#coolor{
+    margin-top: -40px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    }
+
+    .jackquote{
+        margin-top: 40px;
+        font-size: 40px;
+        font-style: italic;
+        float:left;
+    }
+
+    .leftskill{
+        margin-left:40px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width:75%;
+        height:270px;
+    }
+
+    .mainskillhead{
+        margin-left: 30px;
+        font-size: 30px;
+        
+    }
+
+    .skillhead{
+        font-size: 20px;
+    }
+
+    /*general huge stylesheet :) ignore ALL of the names; I hate naming things*/
+    

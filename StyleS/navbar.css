@@ -1,0 +1,57 @@
+
+nav{
+    background: rgba(194,113,138, 0.8);
+    backdrop-filter: 10px;
+    height: 150px;
+}
+
+
+.logo{
+    color: #f1a7be;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+    float:left;
+    margin: 0px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+display:inline-block;
+margin-top: 20px;
+margin-right: 50px;
+}
+
+nav ul li a{
+    font-size: 30px;
+    font-style: italic;
+    color:#540D6E;
+    text-decoration: none;
+}
+
+a.active{
+    background-color: #f1a7be;
+    color:  #355834;;
+    padding:5px 15px;
+    border-radius: 30px;
+    border-bottom-color: #540D6E;
+    border-width: 2px;
+}
+
+#logoimg{
+   
+   margin-top: 0px;
+    width: 150px;
+   
+}
+
+
+.down{
+    margin-bottom: 0px;
+}
+
+/*seperate stylesheet for the nav bar at the top as...helps to compartmentalize*/
