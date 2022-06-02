@@ -1,17 +1,42 @@
-.main_sec1{
-
+@font-face{
+    font-family: 'writingSmolFont';
+    src:url(/fonts/SYLFAEN.TTF);
 }
 
-.heed {
+@font-face{
+    font-family: 'jacks';
+    src:url(/fonts/Miama.ttf);
+}
+
+@font-face{
+    font-family: 'cookie';
+    src:url(/fonts/GARTON.TTF);
+}
+
+@font-face{
+    font-family: 'pasile';
+    src:url(/fonts/Pasile.ttf);
+}
+
+@font-face{
+    font-family: 'Sunshine';
+    src:url(/fonts/Satisfy-Regular.ttf);
+}
+
+                                            
+
+.heed {                                              /*--------------Homepage deets start here------------*/
     display:block;
     font-size: 30px;
-    font-weight: bold;
-    margin-left: 10%;
+   /* font-weight: bold;*/
+    margin-left: 5%;
 }
 
 .pleb{
     display:block;
-    font-size: 20px;
+    font-size: 30px;
+    /*font-weight: bold;*/
+    width: 60%;
     margin-left: 10%;
     padding-left: 10px;
 }
@@ -32,12 +57,10 @@
 
 body{
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:   writingSmolFont, Cambria,Georgia,  Cochin, Times, 'Times New Roman', serif; /*writingSmolFont*/
     color: #540D6E;
     background: url(/LogosAndSuch/watercolorback.png)no-repeat;
-   /*background-color: #f1a7be;*/
-    /*background-size: cover;*/
-   background-attachment: fixed;
+    background-attachment: fixed;
     height: 100vh;
 
 }
@@ -48,7 +71,35 @@ body{
     margin-left: 20px;
 }
 
-.blogname{
+#jackquote{
+    font-family: cookie;
+    float:left;
+   
+    grid-column: 1;
+    grid-row: 1;
+    width:75%;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+#authrr{
+    font-family: jacks;
+    float: right;
+    grid-column: 2;
+    grid-row:1;
+    width:25%;
+    margin-top: -20px;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+.blogname{                          /*--------------Blogs deets start here------------*/
 font-size: 20px;
 line-height: 20px;
 
@@ -63,24 +114,28 @@ line-height: 10px;
 margin-top: -500px;
 display: grid;
 row-gap : 20px;
-grid-template-columns: 50% 25% 25%;
+grid-template-columns: 33% 33% 33%;
 grid-template-rows: 270px 270px 270px;
 
+
+padding-left:30px;
+padding-top: 30px;
+padding-bottom: 30px;
 
 }
 
 .recentgrid{
 display:inline-block;
-margin-left: 50px;
+margin-left: 30px;
 
 }
 
 .recent{
     color:aliceblue;
-    background-color: rgba(168, 30, 218, 0.5);
-    width: 1000px;
+   /* background-color: rgba(168, 30, 218, 0.5);*/
+    width: 100px;
     height: 500px;
-    box-shadow: 0 10px 20px #540d6e; 
+   /* box-shadow: 0 10px 20px #540d6e;*/ 
     padding: 2px;
     text-align: center;
 }
@@ -88,9 +143,10 @@ margin-left: 50px;
     color:aliceblue;
 
     grid-row: 1;
-    grid-column:3;
+    grid-column:1;
     background-color: rgba(168, 30, 218, 0.5);
    
+    height: 300px;
     width: 90%;
     box-shadow: 0 10px 20px #540d6e; 
     padding: 2px;
@@ -102,10 +158,10 @@ margin-left: 50px;
  
     background-color: rgba(168, 30, 218, 0.5);
 
-    grid-row: 2;
-    grid-column: 3;
+    grid-row: 1;
+    grid-column: 2;
 
-    height: 270px;
+    height: 300px;
     width: 90%;
     box-shadow: 0 10px 20px #540d6e; 
     padding: 2px;
@@ -113,19 +169,101 @@ margin-left: 50px;
     
 }
 
-.BlogHeader{
-    font-weight: bold;
-    font-style: italic;
-    margin-left: 20%;
+.weekthree {
+    color:aliceblue;
+ 
+    background-color: rgba(168, 30, 218, 0.5);
+
+    grid-row: 1;
+    grid-column: 3;
+
+    height: 300px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    
 }
 
+.weekfour {
+    color:aliceblue;
+ 
+    background-color: rgba(168, 30, 218, 0.5);
 
-.wireframes{
+    grid-row: 2;
+    grid-column: 1;
+
+    height: 300px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.weekfive {
+    color:aliceblue;
+ 
+    background-color: rgba(168, 30, 218, 0.5);
+
+    grid-row: 2;
+    grid-column: 2;
+
+    height: 300px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.weeksix {
+    color:aliceblue;
+ 
+    background-color: rgba(168, 30, 218, 0.5);
+
+    grid-row: 2;
+    grid-column: 3;
+
+    height: 300px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.BlogHeader{
+    font-weight: bold;
+    font-family: Sunshine;
+    text-decoration:underline;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    /*margin-left: 20%;*/
+}                                                /*--------------Blogs deets end here------------*/
+
+
+.wireframes{   
+    align-content: center;                                 /*--------------Design page deets start here------------*/
     display:grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 400px 300px 300px;
-    row-gap: 20px;
-    column-gap: 20px;
+    /* grid-template-columns: 50% 50%; */
+    /* grid-template-rows: 400px 300px 300px; */
+    /* row-gap: 20px; */
+    /* column-gap: 20px; */
+}
+.dezignchoyses{
+    margin-left: 5%;
+   
+}
+
+.designheaders{
+  /*  text-indent: 450px;*/
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
 }
 
 #wireframe1{
@@ -159,32 +297,91 @@ margin-left: 50px;
     font-size: 30px;
     font-style: italic;
     color: black;
-    }
+    }                                         /*----------------Design Page deets end here---------------*/
 
-    .jackquote{
-        margin-top: 40px;
-        font-size: 40px;
-        font-style: italic;
-        float:left;
-    }
-
-    .leftskill{
+    
+   
+    .leftskill{                                 /*----------------Skill Page deets starts here--------------*/
         margin-left:40px;
+        margin-top:-200px;
+        margin-bottom: 300px;
         font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: writingSmolFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width:75%;
-        height:270px;
+        height:250px;
     }
 
     .mainskillhead{
         margin-left: 30px;
-        font-size: 30px;
-        
+        font-size: 50px;
+        font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+        font-weight:800;
+        line-height: 30px;
     }
 
     .skillhead{
         font-size: 20px;
     }
 
-    /*general huge stylesheet :) ignore ALL of the names; I hate naming things*/
+    .skillpar{
+        height:50%;
+    }
     
+
+    #butt{
+        margin-top: 400px;
+        margin-left: 300px;
+        padding: 30px;
+    }
+
+
+    .outercon{
+        margin-top: 10px;
+        height: 100vh;
+        background: url(/images/ProgressBar_Words.png)no-repeat;
+        background-size: 140vh;
+       /* position:relative;*/
+    }
+
+    .outercon .prog{
+    height:100vh;
+    position:absolute;
+    background:url(/images/GreenVines_Words.png)no-repeat;
+    background-size: 140vh;
+    animation: animatrial 8s forwards;
+    }
+
+    .outerconMarks{
+        /* float:right; */
+        position: relative;
+         margin-left: 750px; 
+         margin-top: -750px; 
+         /* margin-bottom: 900px;  */
+        background: url(/images/combinedVines.png)no-repeat;
+        background-size: 80vh;
+    }
+
+    .outerconMarks .progMarks{
+         height:120vh; 
+        /* position: relative; */
+        background: url(/images/combinedLeaves.png)no-repeat;
+        background-size: 80vh;
+        /* animation: animatrialMarks 8s both; */
+        animation: FromBottomUp 8s;
+    }
+
+    @keyframes animatrial {
+        0% { width: 0%; }
+        50% { width: 30%}
+        100% { width: 50%; }
+    }
+
+    @keyframes animatrialMarks{
+        0% { width: 0%; }
+        100% { width: 100%; } 
+    }
+
+    @keyframes FromBottomUp{
+        0% { background-size: 0vh;}
+        100% {background-size:80vh;}
+    }
