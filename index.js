@@ -12,7 +12,6 @@
 
     var doWantFade = false;
 
-//window.onload = displayQuote();
 
 window.onload = temp();
 
@@ -57,13 +56,9 @@ function chang()
  // fadeInEffect();
 }
 
-
 function displayQuote()
 {
-
   {
-
-
     quotes[0] = "Young, Beautiful, and Caffinated";
     sauces[0] = "- Jack Rathbone, 13/04/2022";
 
@@ -84,12 +79,8 @@ function displayQuote()
 
     quotes[6] = "Yeshria is undeniably odd, yet delightfully entertaining";
     sauces[6] = "- Shafiek Ismail, 20/04/2019";
-
-  
-
   }
 }
-
 
 /*
 function fadeOutEffect() {
@@ -136,8 +127,8 @@ function trialFade()
           clearInterval(fadeEffect);
       }
   }, 500);
-}
-    
+}  
+
 function fadeInEffect() {
   var fadeInTarget = document.getElementById("jackquote");
   var fadeInnextTarget = document.getElementById("authrr");
@@ -154,9 +145,7 @@ function fadeInEffect() {
           clearInterval(fadesEffect);
       }
   }, 500);
-}
-
-*/
+} */
 
 function NextNum(currNum)
   {
@@ -169,4 +158,3 @@ function NextNum(currNum)
         return currNum+1;
       }
   }
-
