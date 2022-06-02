@@ -14,52 +14,82 @@
     <link rel="stylesheet" href="StyleS/style.css" />
     <link rel="stylesheet" href="StyleS/navbar.css" />
     <link rel="stylesheet" href="StyleS/normalise.css" />
+
+    <script
+      src="https://kit.fontawesome.com/711eeacc46.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <nav>
-      <img src="LogosAndSuch/logo_four.png" id="logoimg" />
+      <input type="checkbox" name="" id="menu" />
+      <label for="menu" class="meatballs"
+        ><i class="fa-solid fa-ellipsis"></i
+      ></label>
+
+      <img src="/LogosAndSuch/logo_four.png" id="logoimg" />
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="Pages/Contact.html">Contact Me</a></li>
         <li><a href="Pages/projs.html">Blogs</a></li>
-        <li><a href="Pages/random.html">Other Random Skills</a></li>
+        <li><a href="Pages/random.html">Skills</a></li>
         <li><a href="Pages/spoopy.html">Design</a></li>
+        <li><a href="Pages/Contact.html">Projects</a></li>
       </ul>
     </nav>
 
     <div class="main_sec1">
       <h1 class="heed">What is this site?</h1>
       <p class="pleb">
-        Excellent question! It is about me. Who I am, projects I've worked on,
-        things I've accomplished, and just me in general :)
-      </p>
-
-      <h2 class="heed">How is this site?</h2>
-      <p class="pleb">
-        A work in progress for an annoying professors class. Uses html, css, and
-        javascript.
-      </p>
-      <h3 class="heed">Why is this site?</h3>
-      <p class="pleb">
-        Honestly........I do not know :) I am just here for my degree
+        Excellent question! Simply put - it is me. Who I am, projects I've
+        worked on, things I've accomplished, and just me in general. A
+        collection of highlights and skills presented the only way I ever
+        present things: With drama, flair, and a little bit of charm :)<br /><br />
+        This site is meant to act as a portfolio, but as I am an engineering
+        student, I have no art to showcase. Instead, you will find games I
+        created, blog posts containing critical writings, and what is
+        essentially my online CV. I hope that you enjoy my site which captures
+        both my chaotic nature and love of the colur pink.
       </p>
     </div>
 
     <div class="about">
-      <h4>Me, Myself, and I</h4>
+      <h2>Me, Myself, and I</h2>
       <p></p>
-      My name is Yeshria Pillay, I'm 22 years old and I never learnt how to read
-      :) {vine reference} I am extremely stubborn and never wrong. I am capable
-      of multi-tasking and thrive under pressure. <br /><br />I love being put
-      inside of boxes so I can think outside of the box :) I absolutely fuckin'
-      rock.I can make any guy fall in love with me ;) I am a competent coder, a
-      cool human, and I am trying my best to survive this crazy life.
+      My name is Yeshria Pillay, I'm 22 years old and I love a challenge. This
+      means that I love solving puzzles, finding clever solutions to issues, and
+      I enjoy being put in boxes specifically to think outside of the box and
+      prove that the box didn't exist in the first place. I am capable of
+      multi-tasking and thrive under pressure. <br /><br />
+      On a more personal note, I am a music-lover, a cool human, a softdrink
+      fanatic, and I am trying my best to survive the epic highs and lows of
+      university.
     </div>
-    <img src="../LogosAndSuch/softpurp.png" id="me" />
+    <img src="/LogosAndSuch/softpurp.png" id="me" />
 
-    <p class="jackquote">
-      "Young, Beautiful, and Caffinated" - Jack Rathbone, 2022
-    </p>
+    <h3 id="jackquote">
+      Yeshria is undeniably odd, yet delightfully entertaining
+    </h3>
+
+    <p id="authrr">- Shafiek Ismail, 20/04/2019</p>
+
+    <!--<button id="butt" onloadstart="displayQuote()">More Reviews</button>-->
   </body>
+
+  <footer>
+    <div id="footerName">
+      <a href="https://www.instagram.com/yeshria/?hl=en"
+        ><img src="/images/Picture1.png" id="instaLogo"
+      /></a>
+
+      <a href="https://twitter.com/yeshria"
+        ><img src="/images/Picture2.png" id="twitterLogo"
+      /></a>
+
+      <a href="mailto:yeshria.pillay@gmail.com"
+        ><img src="/images/Picture3.png" id="gmailLogo"
+      /></a>
+    </div>
+  </footer>
+  <script type="text/javascript" src="/index.js"></script>
 </html>
