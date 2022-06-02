@@ -143,9 +143,11 @@ footer{
 }
 
 #instaLogo:hover{
-    transition:ease-in-out 1s;
-    box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
-    background-color: rgb(255,255,255,0.8);
+    transition:ease-in-out 0.5s;
+    filter:saturate(5);
+
+    /* box-shadow: 1px 1px 20px 5px rgb(255, 255, 255, 0.8); */
+    /* background-color: rgb(255,255,255,1);   */
 }
 
 #twitterLogo{
@@ -156,9 +158,10 @@ footer{
 }
 
 #twitterLogo:hover{
-    transition:ease-in-out 1s;
-    box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
-    background-color: rgb(255,255,255,0.8);
+    transition:ease-in-out 0.5s;
+    filter:saturate(5);
+    /* box-shadow: 0px 0px 20px 10px rgb(255, 255, 255, 1); */
+    /* background-color: rgb(255,255,255,1); */
 }
 
 #gmailLogo{
@@ -169,7 +172,10 @@ footer{
 }
 
 #gmailLogo:hover{
-    transition:ease-in-out 1s;
-    box-shadow: 0px 0px 20px 10px rgb(255, 255, 255);
-    background-color: rgb(255,255,255,0.8);
+    transition:ease-in-out 0.5s;
+    filter:saturate(5);
+    /* filter:contrast(100%); */
+    /* box-shadow: 0px 0px 20px 10px rgb(84, 13, 110, 0.5); */
+    /* background-color: rgb(255,255,255,1); */
+    /* background-blend-mode: ; */
 }
