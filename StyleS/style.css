@@ -1,26 +1,26 @@
 @font-face{
     font-family: 'writingSmolFont';
-    src:url(/fonts/SYLFAEN.TTF);
+    src:url(../fonts/SYLFAEN.TTF);
 }
 
 @font-face{
     font-family: 'jacks';
-    src:url(/fonts/Miama.ttf);
+    src:url(../fonts/Miama.ttf);
 }
 
 @font-face{
     font-family: 'cookie';
-    src:url(/fonts/GARTON.TTF);
+    src:url(../fonts/GARTON.TTF);
 }
 
 @font-face{
     font-family: 'pasile';
-    src:url(/fonts/Pasile.ttf);
+    src:url(../fonts/Pasile.ttf);
 }
 
 @font-face{
     font-family: 'Sunshine';
-    src:url(/fonts/Satisfy-Regular.ttf);
+    src:url(../fonts/Satisfy-Regular.ttf);
 }
 
                                             
@@ -59,7 +59,7 @@ body{
 
     font-family:   writingSmolFont, Cambria,Georgia,  Cochin, Times, 'Times New Roman', serif; /*writingSmolFont*/
     color: #540D6E;
-    background: url(/LogosAndSuch/watercolorback.png)no-repeat;
+    background: url(../LogosAndSuch/watercolorback.png)no-repeat;
     background-attachment: fixed;
     height: 100vh;
 
@@ -335,7 +335,7 @@ margin-left: 30px;
     .outercon{
         margin-top: 10px;
         height: 100vh;
-        background: url(/images/ProgressBar_Words.png)no-repeat;
+        background: url(../images/ProgressBar_Words.png)no-repeat;
         background-size: 140vh;
        /* position:relative;*/
     }
@@ -343,7 +343,7 @@ margin-left: 30px;
     .outercon .prog{
     height:100vh;
     position:absolute;
-    background:url(/images/GreenVines_Words.png)no-repeat;
+    background:url(../images/GreenVines_Words.png)no-repeat;
     background-size: 140vh;
     animation: animatrial 8s forwards;
     }
@@ -354,14 +354,14 @@ margin-left: 30px;
          margin-left: 750px; 
          margin-top: -750px; 
          /* margin-bottom: 900px;  */
-        background: url(/images/combinedVines.png)no-repeat;
+        background: url(../images/combinedVines.png)no-repeat;
         background-size: 80vh;
     }
 
     .outerconMarks .progMarks{
          height:120vh; 
         /* position: relative; */
-        background: url(/images/combinedLeaves.png)no-repeat;
+        background: url(../images/combinedLeaves.png)no-repeat;
         background-size: 80vh;
         /* animation: animatrialMarks 8s both; */
         animation: FromBottomUp 8s;

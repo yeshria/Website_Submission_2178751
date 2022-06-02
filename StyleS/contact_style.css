@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: 'writingSmolFont';
-    src:url(/fonts/SYLFAEN.TTF);
+    src:url(../fonts/SYLFAEN.TTF);
 }
 
 
@@ -124,7 +124,7 @@ body{
 
     font-family: writingSmolFont, Cambria,  Georgia, Cochin,Times, 'Times New Roman', serif;
     color: #540D6E;
-    background: url(/LogosAndSuch/watercolorback.png)no-repeat;
+    background: url(../LogosAndSuch/watercolorback.png)no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
