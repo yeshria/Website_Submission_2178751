@@ -91,6 +91,7 @@
     height:110%;
     float: right;
     /* margin-right: 0px; */
+    /* margin-bottom: 100%; */
     margin-top: -20%;
 }
 
@@ -103,7 +104,7 @@
 #africanPuzzle{
     height:130%;
     float: right;
-    margin-top:-25%;
+    margin-top: -25%;
 }
 
 #dotty{
