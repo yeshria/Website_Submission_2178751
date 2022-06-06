@@ -66,19 +66,25 @@
 }
 
 .gamesRight .gameDescription{
-    margin-left: 420px;
+    text-align: right;
+    margin-right: -50%;
+    width: 100%;
 }
 
 .gamesRight .challenges{
-    margin-left: 420px;
+    text-align: right;
+    margin-right: 0px;
+    width: 100%;
 }
 
 .gamesRight .skillsLearnt{
-    margin-left: 420px;
+    text-align: right;
+    margin-right: 0px;
+    width: 100%;
 }
 
 .gameDescription{
-    width: 70%;
+    width: 70%; 
 }
 
 #subwaySurferz{
@@ -89,9 +95,9 @@
 }
 
 #witchyGame{
-    height:150%;
+    height:200%;
     float: left;
-    margin-top: -250px;
+    margin-top: -8%;
 }
 
 #africanPuzzle{
@@ -103,8 +109,8 @@
 #dotty{
     height:150%;
     float: left;
-    margin-left: -20px;
-    margin-top: -420px;
+    /* margin-left: -20px; */
+    margin-top: -15%;
 }
 
 .challenges{
@@ -116,7 +122,6 @@
 .skillsLearnt{
     font: inline-block;
     width: 70%;
-
 }
 
 
