@@ -1,8 +1,8 @@
 
 #backbutt{
     float: left;
-    margin-left: -150px;
-    margin-top: -60px;
+    margin-left: -5%;
+    margin-top: -2%;
     color:aliceblue;
     background-color: #355834;
     padding: 10px;
@@ -13,21 +13,21 @@
     color:blue;
 }
 
-.current{
-    color: blue;
-}
 
 .heading{
     color: #355834;
     font-size: 30px;
+    margin-right: 0%;
 }
 
 .mainbody{
     color:#355834;
+   
 }
 
 .next{
     float:right;
+    margin-right: 0%;
     margin-bottom: 10%;
     color:aliceblue;
     background-color: #355834;
@@ -37,7 +37,7 @@
 
 .prev{
     float:left;
-    margin-left: -150px;
+    margin-left: 0%;
     margin-bottom: 10%;
     color:aliceblue;
     background-color: #355834;
@@ -56,3 +56,16 @@ body{
 
 /*decided to have a seperate style sheet for the blogs because...neat? idk*/
 /*might rethink blog layout if testers say colour-scheme is too distracting*/
+
+.jsAttempt{
+    font: 20px;
+    margin-top: 5000000px;
+}
+
+.current{
+    color: green;
+    font: 10px;
+    text-decoration: none;
+    display:inline-block;
+}
+
