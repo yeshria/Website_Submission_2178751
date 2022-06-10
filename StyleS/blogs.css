@@ -54,6 +54,10 @@ body{
     width: 70%;
 }
 
+.crossout{
+    text-decoration: line-through;
+}
+
 /*decided to have a seperate style sheet for the blogs because...neat? idk*/
 /*might rethink blog layout if testers say colour-scheme is too distracting*/
 
