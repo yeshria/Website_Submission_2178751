@@ -5,6 +5,9 @@ nav{
     background: rgba(194,113,138, 0.8);
     backdrop-filter: 10px;
     height: 100px;
+    width: 100%;
+    position:fixed;
+    margin-top: -9%;
 }
 
 
