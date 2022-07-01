@@ -425,6 +425,399 @@ margin-left: 30px;
         animation: animatrial 4s;
     }
 
+    @media (max-width:1200px)
+    {
+
+
+
+        .main_sec1{
+            margin-top: 15%;
+        }
+
+        .leftskill{                                 /*----------------Skill Page deets starts here--------------*/
+            
+            margin-left:40px;
+            margin-top:0px;
+            margin-bottom: 300px;
+            font-size: 20px;
+            font-family: writingSmolFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width:75%;
+            height:250px;
+        }
+    
+        .mainskillhead{
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+            /* line-height: 80px; */
+        }
+    
+        .skillhead{
+            font-size: 20px;
+        }
+    
+        .skillpar{
+            height:50%;
+        }
+    
+        .langDesc{
+            font-size: 30px;
+            width: 90%;
+            float: right;
+            margin-top: -5%;
+            margin-right:30px;
+            text-align: right;
+        }
+    
+        .otherSkillsHead{
+            margin-top: -15%;
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+        }
+
+        .outerconMarks{
+            position: relative;
+            margin-left: 100px; 
+            margin-top: 30%; 
+            align-items: center;
+            background: url(../images/combinedVines.png)no-repeat;
+            background-size: 80vh;
+            padding-bottom: 100px;
+        }
+
+        .outercon{
+            margin-top: 10px;
+            height: 100vh;
+            margin-left: 100px;
+            background: url(../images/ProgressBar_Words_Purple.png)no-repeat;
+            background-size: 140vh;
+           /* position:relative;*/
+        }
+
+    }
+
+
+    @media (max-width:1010px)
+    {
+
+        
+        .main_sec1{
+            margin-top: 20%;
+        }
+
+        .leftskill{                                 /*----------------Skill Page deets starts here--------------*/
+            margin-left:40px;
+            margin-top:0px;
+            margin-bottom: 500px;
+            font-size: 20px;
+            font-family: writingSmolFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width:65%;
+            height:250px;
+        }
+    
+        .mainskillhead{
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+            /* line-height: 80px; */
+        }
+    
+        .skillhead{
+            font-size: 20px;
+        }
+    
+        .skillpar{
+            height:50%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    
+        .langDesc{
+            font-size: 30px;
+            width: 90%;
+            float: right;
+            margin-top: -5%;
+            margin-right:30px;
+            text-align: right;
+        }
+    
+        .otherSkillsHead{
+            margin-top: -15%;
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+        }
+
+        .outerconMarks{
+            position: relative;
+            margin-left: 100px; 
+            margin-top: 40%; 
+            align-items: center;
+            background: url(../images/combinedVines.png)no-repeat;
+            background-size: 80vh;
+            padding-bottom: 100px;
+        }
+
+        .outercon{
+            margin-top: 10px;
+            height: 100vh;
+            margin-left: 100px;
+            background: url(../images/ProgressBar_Words_Purple.png)no-repeat;
+            background-size: 140vh;
+           /* position:relative;*/
+        }
+    }
+
+    @media (max-width:900px)
+    {
+
+        
+        .main_sec1{
+            margin-top: 25%;
+        }
+
+        .leftskill{                                 /*----------------Skill Page deets starts here--------------*/
+            margin-left:40px;
+            margin-top:0px;
+            margin-bottom: 500px;
+            font-size: 20px;
+            font-family: writingSmolFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width:75%;
+            height:250px;
+        }
+    
+        .mainskillhead{
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+            /* line-height: 80px; */
+        }
+    
+        .skillhead{
+            font-size: 20px;
+        }
+    
+        .skillpar{
+            height:50%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    
+        .langDesc{
+            font-size: 30px;
+            width: 90%;
+            float: right;
+            margin-top: -5%;
+            margin-right:30px;
+            text-align: right;
+        }
+    
+        .otherSkillsHead{
+            margin-top: -15%;
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+        }
+
+        .outerconMarks{
+            position: relative;
+            margin-left: 100px; 
+            margin-top: 60%; 
+            align-items: center;
+            background: url(../images/combinedVines.png)no-repeat;
+            background-size: 80vh;
+            padding-bottom: 100px;
+        }
+
+        .outercon{
+            margin-top: 5px;
+            height: 100vh;
+            margin-left: 100px;
+            background: url(../images/ProgressBar_Words_Purple.png)no-repeat;
+            background-size: 140vh;
+           /* position:relative;*/
+        }
+
+    }
+
+
+    @media (max-width:750px)
+    {
+
+        
+        .main_sec1{
+            margin-top: 30%;
+        }
+
+        .leftskill{                                 /*----------------Skill Page deets starts here--------------*/
+            margin-left:40px;
+            margin-top:0px;
+            margin-bottom: 500px;
+            font-size: 20px;
+            font-family: writingSmolFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width:75%;
+            height:250px;
+        }
+    
+        .mainskillhead{
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+            /* line-height: 80px; */
+        }
+    
+        .skillhead{
+            font-size: 20px;
+        }
+    
+        .skillpar{
+            height:50%;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+    
+        .langDesc{
+            font-size: 30px;
+            width: 90%;
+            float: right;
+            margin-top: -15%;
+            margin-right:30px;
+            text-align: right;
+        }
+    
+        .otherSkillsHead{
+            margin-top: -15%;
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+        }
+
+        .outerconMarks{
+            position: relative;
+            margin-left: 100px; 
+            margin-top: 60%; 
+            align-items: center;
+            background: url(../images/combinedVines.png)no-repeat;
+            background-size: 80vh;
+            padding-bottom: 100px;
+        }
+
+        .outercon{
+            margin-top: 5px;
+            height: 100vh;
+            margin-left: 100px;
+            background: url(../images/ProgressBar_Words_Purple.png)no-repeat;
+            background-size: 140vh;
+           /* position:relative;*/
+        }
+
+    }
+
+
+    @media (max-width:670px)
+    {
+
+        .main_sec1{
+            margin-top: 35%;
+        }
+
+        .leftskill{                                 /*----------------Skill Page deets starts here--------------*/
+            margin-left:40px;
+            margin-top:25%;
+            margin-bottom: 500px;
+            font-size: 20px;
+            font-family: writingSmolFont, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width:75%;
+            height:250px;
+        }
+    
+        .mainskillhead{
+            margin-left: 30px;
+            font-size: 50px;
+            margin-top: -50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+            /* line-height: 80px; */
+        }
+    
+        .skillhead{
+            font-size: 20px;
+        }
+    
+        .skillpar{
+            height:50%;
+            width: 120%;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+    
+        .langDesc{
+            font-size: 25px;
+            width: 90%;
+            float: right;
+            margin-top: -50%;
+            margin-right:30px;
+            text-align: right;
+        }
+    
+        .otherSkillsHead{
+            margin-top: -65%;
+            margin-left: 30px;
+            font-size: 50px;
+            font-family: pasile,writingSmolFont, Georgia, 'Times New Roman', Times, serif;
+            font-weight:800;
+        }
+
+
+
+.outerconMarks .progMarks{
+    height:120vh; 
+   /* position: relative; */
+   background: url(../images/combinedLeaves.png)no-repeat;
+   background-size: 50vh;
+   /* animation: animatrialMarks 8s both; */
+   animation: animatrial 4s;
+}
+
+        .outerconMarks{
+            position: relative;
+            margin-left: 100px; 
+            margin-top: 60%; 
+            align-items: center;
+            background: url(../images/combinedVines.png)no-repeat;
+            background-size: 50vh;
+            padding-bottom: 100px;
+        }
+
+        .outercon .prog{
+            height:100vh;
+            position:absolute;
+            background:url(../images/GreenVines_Words.png)no-repeat;
+            background-size: 100vh;
+            animation: animatrial 8s forwards;
+            }
+
+        .outercon{
+            margin-top: 5px;
+            height: 100vh;
+            margin-left: 0px;
+            background: url(../images/ProgressBar_Words_Purple.png)no-repeat;
+            background-size: 100vh;
+           /* position:relative;*/
+        }
+
+    }
+
+
     @media (max-width: 1200px){
         .wireframes{   
             align-content: center;                                 /*--------------Design page deets start here------------*/
