@@ -137,6 +137,10 @@ a.active{
     #menu:checked ~ ul{
         left: 0%;
     }
+
+    #footerName{
+        margin-bottom: -50%;
+    }
 }
 
 .down{
@@ -225,10 +229,20 @@ footer{
     nav{
         margin-top: -29%;
     }
+
+    #footerName{
+        margin-bottom: -20%;
+    }
+
+
 }
 
 @media (max-width: 600px){
     nav{
         margin-top: -24%;
+    }
+
+    #footerName{
+        margin-bottom: -22%;
     }
 }

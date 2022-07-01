@@ -28,30 +28,6 @@
 
 
 
-     //alert("in function");
-
-   //  for (var i = 0; i < uList.length; i++) 
-   //      {
-   //      newItem = document.createElement("li");
-   //      // uList.appendChild(newItem);
-   //      // newItem.appendChild(newLink);
-
-   //      newLink = document.createElement("a");
-   //      uList.appendChild(newLink);
-    
-   //      newLink.body.href = navItems[i].href;
-   //      newLink.body.innerHTML = navItems[i].text;
-
-   //      uList.appendChild(newLink);
-  
-   //      // newItem.appendChild(newLink);
-   //      uList.appendChild(newItem);
-   //      // alert("in loop");
-
-   //      }
-
-      //   console.log(uList.children);
-      //    uList.children[0].classList.add("current");
 
       // callin function
          window.onload = function() 

@@ -140,3 +140,374 @@ body{
 
 }
 
+@media (max-width: 1200px){
+    .main_sec1{   
+      margin-top: 20%;
+    }
+
+    #subwaySurferz{
+        height:80%;
+        float: right;
+        /* margin-right: 0px; */
+        /* margin-bottom: 100%; */
+        margin-top: -30%;
+    }
+
+    #witchyGame{
+        height:80%;
+        float: left;
+        margin-top: -4%;
+    }
+    
+    #africanPuzzle{
+        height:75%;
+        float: right;
+        margin-top: -35%;
+    }
+
+    #dotty{
+        height:85%;
+        float: left;
+        margin-top: -9%;
+        margin-left: -10px;
+    }
+    
+
+    .allProjects{
+        margin:30px;
+        /* background-color: rgba(85, 212, 115, 0.5); */
+    
+        display: grid;
+        row-gap : -10px;
+        grid-template-columns: 100%;
+         grid-template-rows: 650px 750px 650px 650px 60px; 
+    }
+
+
+    .games{
+        height: 300px;
+        padding: 30px;
+        text-align: left;
+    }
+    
+    .gamesRight{
+        height: 350px;
+        padding: 30px;
+        text-align: right;
+    }
+    
+}
+
+@media (max-width: 1000px){
+    .main_sec1{   
+      margin-top: 25%;
+    }
+}
+
+@media (max-width: 900px){
+
+    #subwaySurferz{
+        height:50%;
+        float: right;
+        /* margin-right: 0px; */
+        /* margin-bottom: 100%; */
+        margin-top: -30%;
+    }
+
+    #witchyGame{
+        height:50%;
+        float: left;
+        margin-top: -4%;
+    }
+    
+    #africanPuzzle{
+        height:50%;
+        float: right;
+        margin-top: -35%;
+    }
+
+    #dotty{
+        height:45%;
+        float: left;
+        margin-top: -4%;
+        margin-left: -10px;
+    }
+    
+
+    .allProjects{
+        margin:30px;
+        /* background-color: rgba(85, 212, 115, 0.5); */
+    
+        display: grid;
+        row-gap : -50px;
+        grid-template-columns: 100%;
+        grid-template-rows: 850px 950px 850px 950px 60px; 
+    }
+
+
+    .games{
+        height: 400px;
+        padding: 50px;
+        text-align: left;
+    }
+    
+    .gamesRight{
+        margin-top: -20%;
+        height: 350px;
+        padding: 50px;
+        text-align: right;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .main_sec1{   
+      margin-top: 30%;
+    }
+}
+
+
+
+@media (max-width: 700px){
+
+    .gameHeadings{
+        /* line-height: 30px; */
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    .gamesRight .gameHeadings{
+        text-align: right;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+    
+    .gamesRight .gameDescription{
+        text-align: right;
+        margin-right: -50%;
+        width: 100%;
+    }
+    
+    .gamesRight .challenges{
+        text-align: right;
+        margin-right: 0px;
+        width: 100%;
+    }
+    
+    .gamesRight .skillsLearnt{
+        text-align: right;
+        margin-right: 0px;
+        width: 100%;
+    }
+    
+    .gameDescription{
+        width: 100%; 
+    }
+
+    #subwaySurferz{
+        height:50%;
+        float: right;
+        float: bottom;
+        /* margin-right: 0px; */
+        /* margin-bottom: 100%; */
+        margin-top: -30%;
+        margin-right: -5%;
+        /* visibility: hidden; */
+    }
+
+    #witchyGame{
+        height:50%;
+        float: left;
+        margin-top: -4%;
+        /* visibility: hidden; */
+    }
+    
+    #africanPuzzle{
+        height:50%;
+        float: right;
+        margin-top: -35%;
+        /* visibility: hidden; */
+    }
+
+    #dotty{
+        height:45%;
+        float: left;
+        margin-top: -4%;
+        margin-left: -10px;
+        /* svisibility: hidden; */
+    }
+    
+
+    .allProjects{
+        margin:30px;
+        /* background-color: rgba(85, 212, 115, 0.5); */
+    
+        display: grid;
+        row-gap : -50px;
+        grid-template-columns: 100%;
+        grid-template-rows: 1000px 1000px 1000px 1000px 60px; 
+    }
+
+
+    .games{
+        height: 400px;
+        padding: 50px;
+        text-align: left;
+    }
+    
+    .gamesRight{
+        height: 450px;
+        padding: 50px;
+        text-align: right;
+    }
+    
+}
+
+
+@media (max-width: 650px){
+
+    .allProjects{
+        margin:30px;
+        /* background-color: rgba(85, 212, 115, 0.5); */
+    
+        display: grid;
+        row-gap : -50px;
+        grid-template-columns: 100%;
+        grid-template-rows: 1000px 1000px 1000px 1000px 60px; 
+    }
+    .games{
+        height: 500px;
+        padding: 10px;
+        text-align: left;
+    }
+    .gamesRight{
+        height: 600px;
+        padding: 10px;
+        text-align: right;
+    }
+    
+}
+
+@media (max-width: 550px){
+
+    .allProjects{
+        margin:30px;
+        /* background-color: rgba(85, 212, 115, 0.5); */
+    
+        display: grid;
+        row-gap : -50px;
+        grid-template-columns: 100%;
+        grid-template-rows: 1000px 1000px 1000px 1000px 60px; 
+    }
+    .games{
+        height: 750px;
+        padding: 10px;
+        text-align: left;
+    }
+    
+   .wutWitchDot .gameDescription{
+    width:200%;
+   }
+    
+    
+   
+
+    #subwaySurferz{
+        height:50%;
+        float: right;
+        float: bottom;
+        /* margin-right: 0px; */
+        /* margin-bottom: 100%; */
+        margin-top: -10%;
+        margin-right: -5%;
+        /* visibility: hidden; */
+    }
+
+    #witchyGame{
+        height:50%;
+        float: left;
+        margin-top: -4%;
+        margin-left: -5%;
+        /* visibility: hidden; */
+    }
+    
+    #africanPuzzle{
+        height:50%;
+        float: right;
+        float: bottom;
+        margin-top: -25%;
+        /* visibility: hidden; */
+    }
+
+    #dotty{
+        height:45%;
+        float: left;
+        margin-top: -4%;
+        margin-left: -10px;
+        /* svisibility: hidden; */
+    }
+}
+
+
+
+@media (max-width: 500px){
+
+    .allProjects{
+        margin:30px;
+        /* background-color: rgba(85, 212, 115, 0.5); */
+    
+        display: grid;
+        row-gap : 300px;
+        grid-template-columns: 100%;
+        grid-template-rows: 1000px 1000px 1000px 1000px 60px; 
+    }
+    .games{
+        height: 850px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .gamesRight{
+        height: 950px;
+    }
+    
+   .wutWitchDot .gameDescription{
+    width:200%;
+   }
+   
+
+    #subwaySurferz{
+        height:20%;
+        float: right;
+        float: bottom;
+        /* margin-right: 0px; */
+        /* margin-bottom: 100%; */
+        margin-top: 10%;
+        margin-right: -5%;
+        /* visibility: hidden; */
+    }
+
+    #witchyGame{
+        height:20%;
+        float: left;
+        margin-top: 1%;
+        margin-left: -5%;
+        /* visibility: hidden; */
+    }
+    
+    #africanPuzzle{
+        height:20%;
+        float: right;
+        float: bottom;
+        margin-top: 15%;
+        /* visibility: hidden; */
+    }
+
+    #dotty{
+        height:20%;
+        float: left;
+        margin-top: -4%;
+        margin-left: -10px;
+        /* svisibility: hidden; */
+    }
+}
