@@ -271,6 +271,21 @@ margin-left: 30px;
     margin-top: 160px;
 }
 
+.weeknine{
+    color:aliceblue;
+
+    grid-row: 3;
+    grid-column:3;
+    background-color: rgba(168, 30, 218, 0.5);
+   
+    height: 300px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    margin-top: 160px;
+}
+
 .BlogHeader{
     font-weight: bold;
     font-family: Sunshine;
