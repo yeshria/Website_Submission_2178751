@@ -1031,7 +1031,7 @@ margin-left: 30px;
         display: grid;
         row-gap : 10px;
         grid-template-columns: 90%;
-        grid-template-rows: 350px 350px 400px 350px 400px 400px 100px;
+        grid-template-rows: 350px 350px 400px 350px 400px 400px 400px 400px 400px 100px;
         
         
         margin-left: 20%;
@@ -1153,6 +1153,59 @@ margin-left: 30px;
                 margin-top: -10px;
                 
             }
+
+
+            .weekseven {
+                color:aliceblue;
+             
+                background-color: rgba(168, 30, 218, 0.5);
+            
+                grid-row: 7;
+                grid-column: 1;
+            
+                height: 80%; /* height: 200px; */
+                width: 90%;
+                box-shadow: 0 10px 20px #540d6e; 
+                padding: 2px;
+                text-align: center;
+                margin-top: -10px;
+                
+            }
+
+            .weekeight{
+                color:aliceblue;
+             
+                background-color: rgba(168, 30, 218, 0.5);
+            
+                grid-row: 8;
+                grid-column: 1;
+            
+                height: 80%; /* height: 200px; */
+                width: 90%;
+                box-shadow: 0 10px 20px #540d6e; 
+                padding: 2px;
+                text-align: center;
+                margin-top: -10px;
+                
+            }
+
+            .weeknine {
+                color:aliceblue;
+             
+                background-color: rgba(168, 30, 218, 0.5);
+            
+                grid-row: 9;
+                grid-column: 1;
+            
+                height: 80%; /* height: 200px; */
+                width: 90%;
+                box-shadow: 0 10px 20px #540d6e; 
+                padding: 2px;
+                text-align: center;
+                margin-top: -10px;
+                
+            }
+
             .BlogHeader{
                 font-weight: bold;
                 font-family: Sunshine;
@@ -1218,7 +1271,7 @@ margin-left: 30px;
             display: grid;
             row-gap : 10px;
             grid-template-columns: 90%;
-            grid-template-rows: 400px 400px 400px 400px 400px 400px 100px;
+            grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 100px;
             
             
             margin-left: 20%;
@@ -1340,6 +1393,58 @@ margin-left: 30px;
                 margin-top: -10px;
                 
             }
+
+            .weekseven {
+                color:aliceblue;
+             
+                background-color: rgba(168, 30, 218, 0.5);
+            
+                grid-row: 7;
+                grid-column: 1;
+            
+                height: 80%; /* height: 200px; */
+                width: 90%;
+                box-shadow: 0 10px 20px #540d6e; 
+                padding: 2px;
+                text-align: center;
+                margin-top: -10px;
+                
+            }
+
+            .weekeight{
+                color:aliceblue;
+             
+                background-color: rgba(168, 30, 218, 0.5);
+            
+                grid-row: 8;
+                grid-column: 1;
+            
+                height: 80%; /* height: 200px; */
+                width: 90%;
+                box-shadow: 0 10px 20px #540d6e; 
+                padding: 2px;
+                text-align: center;
+                margin-top: -10px;
+                
+            }
+
+            .weeknine {
+                color:aliceblue;
+             
+                background-color: rgba(168, 30, 218, 0.5);
+            
+                grid-row: 9;
+                grid-column: 1;
+            
+                height: 80%; /* height: 200px; */
+                width: 90%;
+                box-shadow: 0 10px 20px #540d6e; 
+                padding: 2px;
+                text-align: center;
+                margin-top: -10px;
+                
+            }
+            
             .BlogHeader{
                 font-weight: bold;
                 font-family: Sunshine;
