@@ -121,7 +121,7 @@ margin-top: -500px;
 display: grid;
 row-gap : 20px;
 grid-template-columns: 33% 33% 33%;
-grid-template-rows: 270px 270px 270px;
+grid-template-rows: 270px 270px 270px 270px ;
 
 
 padding-left:30px;
@@ -239,6 +239,23 @@ margin-left: 30px;
     margin-top: 80px;
     
 }
+
+
+.weekseven {
+    color:aliceblue;
+
+    grid-row: 3;
+    grid-column:1;
+    background-color: rgba(168, 30, 218, 0.5);
+   
+    height: 300px;
+    width: 90%;
+    box-shadow: 0 10px 20px #540d6e; 
+    padding: 2px;
+    text-align: center;
+    margin-top: 160px;
+}
+
 .BlogHeader{
     font-weight: bold;
     font-family: Sunshine;

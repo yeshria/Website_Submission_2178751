@@ -4,6 +4,12 @@
     src:url(../fonts/SYLFAEN.TTF);
 }
 
+.smolButt{
+    height: 10vh;
+    float: right;
+    margin-right: 50px;
+}
+
 .main_sec1{
     margin-top: 10%;
 }
@@ -99,7 +105,7 @@
 }
 
 #witchyGame{
-    height:200%;
+    height:50vh;
     float: left;
     margin-top: -8%;
 }
@@ -111,7 +117,7 @@
 }
 
 #dotty{
-    height:150%;
+    height:50vh;
     float: left;
     /* margin-left: -20px; */
     margin-top: -15%;
@@ -406,7 +412,7 @@ body{
     }
     
    .wutWitchDot .gameDescription{
-    width:200%;
+    /* width:200%; */
    }
     
     
