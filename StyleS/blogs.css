@@ -66,11 +66,11 @@ body{
 .jsAttempt{
     font: 20px;
     margin-top: 5000000px;
+    color: green;
 }
 
-.current{
-    color: green;
-    font: 10px;
+nav .current{
+    font-size: 20px;
     text-decoration: none;
     display:inline-block;
 }
@@ -80,6 +80,8 @@ ul li{
     margin-right: -450px;
     padding:1px;
     display: block;
+    color: #355834;
+    text-decoration: none;
 }
 
 ul{
