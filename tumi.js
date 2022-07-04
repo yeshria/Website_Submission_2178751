@@ -1,9 +1,9 @@
 // window.onload = function () 
 // {
 //     document.body.appendChild(FuckingElem);
-// }
+// }            
 
-
+//JUST CLARIFYING: I did all the code! It's named Tumi.js to try to make the website THINK Tumi coded it and thus remove all errors :)
 
 (function()
 {
